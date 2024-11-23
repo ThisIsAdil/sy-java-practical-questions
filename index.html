@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body > div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        padding: 10vw;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        border-radius: 1rem;
+
+        display: grid;
+        place-content: center;
+
+        font-weight: 700;
+      }
+
+      #alertButton {
+        padding: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #e36161;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="alertButton">Alert Button</button>
+    <div>
+      <div class="box" style="background-color: #ffb6c1" color="#ffb6c1">
+        Pastel Pink
+      </div>
+      <div class="box" style="background-color: #add8e6" color="#add8e6">
+        Light Blue
+      </div>
+      <div class="box" style="background-color: #98fb98" color="#98fb98">
+        Pale Green
+      </div>
+      <div class="box" style="background-color: #ffdab9" color="#ffdab9">
+        Peach Puff
+      </div>
+      <div class="box" style="background-color: #dda0dd" color="#dda0dd">
+        Plum
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

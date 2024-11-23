@@ -1,0 +1,19 @@
+2-Write a program to demonstrate following function concept
+Function overloading (completed)
+Constructor of all types (completed)
+Default parameters, returning by reference.
+
+3-Program on dealing with Arrays & Program on Inheritance and Polymorphism. (completed)
+
+4-Programs on Garbage collection, packaging, access Modifiers, as well as static and abstract modifiers. 
+5-Programs on Interfaces, block initializers, final Modifier, as well as static and dynamic binding
+
+6-Programs on Exception Handling.
+
+7-Write a Java program that illustrates the following 
+a) Creation of simple package. 
+b) Accessing a package. 
+c) Implementing interfaces.
+
+10-Programs on Java script client side scripting with it’s example.
+9-Programs on Java script Operators, Comparisons, Statements, Loops, Events, Objects.
