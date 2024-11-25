@@ -1,15 +1,9 @@
 // Programs on Garbage collection, 
-// packaging, access Modifiers, as well as static and abstract modifiers. 
 
 public class GarbageCollectionDemo {
 
-    public GarbageCollectionDemo() {
-        System.out.println("Constructor called");
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        System.out.println("Destructor called");
+    public void finalize() {
+        System.out.println("Garbage collector called, object destroyed");
     }
 
     public static void main(String[] args) {

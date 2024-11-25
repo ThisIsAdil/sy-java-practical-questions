@@ -3,11 +3,11 @@
 public class ArrayDemo {
     public static void main(String[] args) {
         // Program on dealing with Arrays
-        int[] arr = { 5, 2, 8, 1, 7 };
+        int[] arr = { 5, 12, 7, 3, 9, 20 };
 
         // printing original array
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.println(arr[i] + " ");
         }
         ;
 
@@ -19,5 +19,20 @@ public class ArrayDemo {
         ;
 
         System.out.println("Sum of all array elements: " + sum);
+
+        // finding the maximum and minimum numbers from array
+        int max = arr[0];
+        int min = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        System.out.println("Maximum Number: " + max);
+        System.out.println("Minimum Number: " + min);
     }
 }
